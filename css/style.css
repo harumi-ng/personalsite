@@ -1,0 +1,75 @@
+.gradient-background {
+	background: linear-gradient(-45deg, #b6f0bb, #87f386, #B0D9B1, #A2C579);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body{
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+}
+
+h1{
+    padding-top: 100px;
+	padding-bottom: 30px;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 4rem;
+    color: white;
+	margin: 0;
+}
+
+h2{
+	font-size: 2.5rem;
+	color: #567e29;
+	font-weight:bolder;
+}
+
+h3{
+    color: white;
+    font-size: 1.5rem;
+	padding-bottom: 30px;
+	margin: 0;
+}
+
+p{
+	font-size: 1.5rem;
+	color: rgba(0, 0, 0, 0.856);
+}
+
+#title{
+	display: flex;
+    text-align: center;
+	height: fit-content;
+	margin: 0;
+	justify-content: center;
+}
+
+.profile-photo{
+	border-radius: 50%;
+	margin: 40px 40px;
+}
+
+.profile{
+	width: 50%;
+}
+
+#footer{
+	background-color: #b6f0bb;
+	margin: 0;
+	height: 100px;
+}
